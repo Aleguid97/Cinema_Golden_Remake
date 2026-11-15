@@ -8,17 +8,6 @@ const films = [
   { title: "Film1", times: ["18:30", "21:30"] },
   { title: "Film2", times: ["19:30", "22:00"] },
   { title: "Film3", times: ["18:00", "21:30"] },
-  {
-    title: "Film4",
-    times: ["20:00"],
-  } /* qui definiamo tutta la lista dei film in programmazione con i relativi orari */,
-  {
-    title: "Film5",
-    times: ["19:00", "22:30"],
-  } /* gli stessi attraverso il metodo map vengono poi visualizzati nella sezione del programma */,
-  { title: "Film6", times: ["18:30", "21:00"] },
-  { title: "Film7", times: ["19:30", "22:00"] },
-  { title: "Film8", times: ["18:00", "21:30"] },
 ];
 
 function padNumber(num) {
