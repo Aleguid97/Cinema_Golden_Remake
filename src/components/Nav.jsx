@@ -1,10 +1,10 @@
 const links = [
-  { label: "Programma", href: "#programma" },
-  { label: "Prossimamente", href: "#prossimamente" },
-  { label: "Cineclub", href: "#eventi" },
-  { label: "Prezzi", href: "#prezzi" },
-  { label: "Sale", href: "#sale" },
-  { label: "Storia", href: "#storia" },
+  { label: "Programma", href: "/#programma" },
+  { label: "Prossimamente", href: "prossimamente" },
+  { label: "Cineclub", href: "cineclub" },
+  { label: "Prezzi", href: "/#prezzi" },
+  { label: "Sale", href: "sale" },
+  { label: "Storia", href: "storia" },
 ];
 
 const WEBTIC = "https://www.webtic.it/#/shopping?action=loadLocal&localId=5353";
@@ -14,7 +14,7 @@ function Nav() {
     <nav aria-label="Principale" className="sticky top-0 z-10 border-b border-line bg-surface-2">
       <div className="mx-auto grid max-w-[1120px] grid-cols-[1fr_auto] items-center gap-x-4 gap-y-2 px-4 pb-1.5 pt-2.5 md:grid-cols-[auto_1fr_auto] md:gap-6 md:px-8 md:py-3">
         <a
-          href="#programma"
+          href="/#programma"
           className="whitespace-nowrap font-display text-[28px] leading-none tracking-[0.04em] text-gold-ink no-underline"
         >
           Multisala Golden
